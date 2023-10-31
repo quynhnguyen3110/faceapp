@@ -1,0 +1,3 @@
+docker build . -t gradioapp:latest
+docker tag gradioapp:latest yourhubusername/verse_gapminder:firsttry
+docker push ericle2131/faceapp:tagname
